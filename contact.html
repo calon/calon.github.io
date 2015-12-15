@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+
+    <title>Personal Start Page</title>
+
+    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+      <![endif]-->
+      <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+        <!--<![endif]-->
+
+  </head>
+  <body class="light_skin">
+
+    <div id="layout">
+      <!-- Menu toggle -->
+      <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+      </a>
+
+      <div id="menu">
+        <div class="pure-menu">
+          <a class="pure-menu-heading" href="./index.html">Start Page</a>
+
+          <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="./index.html" class="pure-menu-link">Links</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="contact">
+        <div class="header">
+          <h1>Contact</h1>
+          <h2>Knowhere but Somewhere</h2>
+        </div>
+        <div class="content">
+                <div class="col33 fl-left" style="margin-left:5%">
+                  <div>
+                    <h3> CALON / CHAON XU</h3>
+                  </div>
+                  <div><img src="images/Avatar_225.png" alt="" /></div>
+                </div>
+
+                <div class="col53 fl-right" style="margin-left:5%">
+                    <div><i class="mdi mdi-gmail"></i> calon.xu<i class="mdi mdi-at"></i>Gmail</div>
+                    <div><i class="mdi mdi-email-outline"></i> chaonxu<i class="mdi mdi-at"></i>189.cn</div>
+                    <div><i class="mdi mdi-mail-ru"></i> chaonxu<i class="mdi mdi-at"></i>Mail.ru</div>
+                    <div><A HREF="http://flickr.com/photos/calon"><i class="mdi mdi-camera"></i> Flickr</A></div>
+                    <div><A HREF="https://twitter.com/calon"><i class="mdi mdi-twitter"></i> Twitter</A></div>
+                    <div><A HREF="https://www.facebook.com/calonxu"><i class="mdi mdi-facebook-box"></i> Facebook</A></div>
+                    <div><A HREF="http://calon.weblogs.us/"><i class="mdi mdi-pencil"></i> Blog</A></div>
+                    <div><A HREF="http://calon.weblogs.us/feed/"><i class="mdi mdi-rss"></i> RSS</A></div>
+                    <div><A HREF="https://delicious.com/calon/"><i class="mdi mdi-checkerboard"></i> Delicious</A></div>
+                    <div><A HREF="http://telegram.me/calon"><i class="mdi mdi-telegram"></i> Telegram</A></div>
+                    <div><A HREF="https://www.reddit.com/user/calonxu/"><i class="mdi mdi-reddit"></i> Reddit</A></div>
+                    <div><A HREF="http://music.163.com/#/user/home?id=52594133"><i class="mdi mdi-headphones"></i> Cloud Music</A></div>
+                </div>
+        </div>
+      </div>    
+    </div>
+
+    <script src="js/ui.js"></script>
+
+  </body>
+</html>
