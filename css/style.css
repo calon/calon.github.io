@@ -186,3 +186,35 @@ body.light_skin {color:#4a4a4a;}
 .icon-blog{background:url(images/feather.png);}
 .icon-cloud{background:url(images/icon-cloud.png) no-repeat; width:12px; height:9px; margin-right:5px;}
 .icon-print{background:url(images/icon-print.png) no-repeat; width:10px; height:10px; margin-right:8px;}
+
+.table-responsive {
+    margin-left: -1em;
+    margin-right: -1em;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1em;
+}
+.table-responsive table {
+    width: 100%;
+    min-width: 35.5em;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.table-responsive .mq-table {
+    width: 100%;
+    min-width: 44em;
+}
+.mq-table th.highlight {
+    background-color: rgb(255, 234, 133);
+}
+.mq-table td.highlight {
+    background-color: rgb(255, 250, 229);
+}
+.mq-table th.highlight code,
+.mq-table td.highlight code {
+    background: rgb(255, 255, 243);
+}
+.mq-table-mq code {
+    font-size: 0.875em;
+}
