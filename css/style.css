@@ -218,3 +218,10 @@ body.light_skin {color:#4a4a4a;}
 .mq-table-mq code {
     font-size: 0.875em;
 }
+
+#footer {
+  position : absolute;
+  bottom : 0;
+  height : 40px;
+  margin-top : 40px;
+  }
