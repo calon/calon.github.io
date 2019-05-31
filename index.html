@@ -2,248 +2,142 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
-
     <title>Start Page</title>
-
-    <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure&#45;min.css"> -->
-    <link rel="stylesheet" href="css/pure-min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <!--[if lte IE 8]>
-      <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
-      <![endif]-->
-      <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="css/layouts/side-menu.css">
-        <!--<![endif]-->
-
+    <link id="stylesheet" rel="stylesheet" href="css/dark.standalone.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-
     <div id="layout">
-      <!-- Menu toggle -->
-      <a href="#menu" id="menuLink" class="menu-link">
-        <!-- Hamburger icon -->
-        <span></span>
-      </a>
-
-      <div id="menu">
-        <div class="pure-menu">
-          <a class="pure-menu-heading" href="#">Start Page</a>
-
-          <ul class="pure-menu-list">
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Links</a></li>
-            <!-- <li class="pure&#45;menu&#45;item" class="menu&#45;item&#45;divided pure&#45;menu&#45;selected"> <a href="#" class="pure&#45;menu&#45;link">Services</a> </li> -->
-            <li class="pure-menu-item"><a href="./contact.html" class="pure-menu-link">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-
       <div id="main">
-        <div class="header">
+        <div>
           <h1><a href="https://github.com/calon/calon.github.io/edit/master/index.html">Links</a></h1>
           <h2>Dive into Internet</h2>
+          <hr/>
         </div>
-        <div class="content table-responsive">
-          <h2 class="content-subhead">常用</h2>
-          <table class="pure-table mq-table pure-table-striped">
-            <tbody>
-              <tr class="pure-table">
-                <td><A HREF="https://www.ruanruandemeizi.com/">里</A><A HREF="https://www.253874.net/">屋</A></td>
-                <td><A HREF="http://google.com/ncr">Google</A></td>
-                <td><A HREF="https://mail.google.com/mail/">Gmail</A></td>
-                <td><A HREF="https://twitter.com/">Twitter</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="https://tagpacker.com/">Tagpacker</A></td>
-                <td><A HREF="http://bbs.hupu.com/i">虎扑</A></td>
-                <td><A HREF="http://www.zhihu.com/">知乎</A></td>
-                <td><A HREF="http://www.reddit.com/">Reddit</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="https://app.simplenote.com/">Simplenote</A></td>
-                <td><A HREF="http://www.quora.com/">Quora</A></td>
-                <td><A HREF="http://bing.com/">Bing</A></td>
-                <td><A HREF="http://www.flickr.com/">Flickr</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://www.vim.org/">Vim</A></td>
-                <td><A HREF="https://www.inoreader.com/">Inoreader</A></td>
-                <td><A HREF="https://web.okjike.com/">即刻</A></td>
-                <td><A HREF="https://mail.ru/">Mail.ru</A></td>
-              </tr>
-            </tbody>
-          </table>
+        <div>
+          <h2>常用</h2>
+          <button><A HREF="http://bing.com/">Bing</A></button>
+          <button><A HREF="http://www.flickr.com/">Flickr</A></button>
+          <button><A HREF="http://google.com/ncr">Google</A></button>
+          <button><A HREF="https://mail.google.com/mail/">Gmail</A></button>
+          <button><A HREF="https://www.inoreader.com/">Inoreader</A></button>
+          <button><A HREF="https://mail.ru/">Mail.ru</A></button>
+          <button><A HREF="http://www.quora.com/">Quora</A></button>
+          <button><A HREF="http://www.reddit.com/">Reddit</A></button>
+          <button><A HREF="https://app.simplenote.com/">Simplenote</A></button>
+          <button><A HREF="https://tagpacker.com/">Tagpacker</A></button>
+          <button><A HREF="https://twitter.com/">Twitter</A></button>
+          <button><A HREF="http://www.vim.org/">Vim</A></button>
+          <button><A HREF="http://bbs.hupu.com/i">虎扑</A></button>
+          <button><A HREF="https://www.ruanruandemeizi.com/">里</A><A HREF="https://www.253874.net/">屋</A></button>
+          <button><A HREF="https://web.okjike.com/">即刻</A></button>
+          <button><A HREF="http://www.zhihu.com/">知乎</A></button>
+          <hr/>
         </div>
-        <div class="content table-responsive">
-          <h2 class="content-subhead">实用工具</h2>
-          <table class="pure-table mq-table pure-table-striped">
-            <tbody>
-              <tr class="pure-table">
-                <td><A HREF="https://www.instapaper.com/u">Instapaper</A></td>
-                <td><A HREF="https://getpocket.com/">Pocket</A></td>
-                <td><A HREF="http://www.zdic.net/">汉典</A></td>
-                <td><A HREF="https://translate.google.cn/">翻</A><A HREF="https://www.bing.com/translator">译</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://www.merriam-webster.com/">Webster</A></td>
-                <td><A HREF="http://www.collinsdictionary.com/">Collins</A></td>
-                <td><A HREF="https://trello.com/">Trello</A></td>
-                <td><A HREF="https://www.wolframalpha.com/">WolframAlpha</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://www.sha1-online.com/">Hash Generator</A></td>
-                <td><A HREF="https://addons.mozilla.org/zh-CN/firefox/">Firefox 附加组件</A></td>
-                <td><A HREF="http://alternativeto.net/">AlternativeTo</A></td>
-                <td><A HREF="https://lastpass.com/">LastPass</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="https://send.firefox.com/">Send</A></td>
-                <td><A HREF="http://pan.baidu.com/">百度云</A></td>
-                <td><A HREF="http://cloud.189.cn/">天翼云</A></td>
-                <td><A HREF="https://jianguoyun.com/">坚果云</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="https://ifttt.com/">IFTTT</A></td>
-                <td><A HREF="https://mijisou.com/">密迹</A></td>
-                <td><A HREF="https://delicious.com/">Delicious</A></td>
-                <td><A HREF="https://www.dropbox.com/">Dropbox</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://wikipedia.org/">Wikipedia</A></td>
-                <td><A HREF="http://www.ghisler.com/">Total Commander</A></td>
-                <td><A HREF="http://www.wiz.cn/">Wiz</A></td>
-                <td><A HREF="http://portableapps.com/">PortableApps</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="https://telegram.org/">Telegram</A></td>
-                <td><A HREF="https://www.superbed.cn/">聚合图床</A></td>
-                <td><A HREF="https://free-ss.site/">S</A><A HREF="https://free-ss.gq/">S</A></td>
-                <td><A HREF="http://chuansong.me/">传送门</A></td>
-              </tr>
-            </tbody>
-          </table>
+        <div>
+          <h2>实用工具</h2>
+          <button><A HREF="http://alternativeto.net/">AlternativeTo</A></button>
+          <button><A HREF="http://www.collinsdictionary.com/">Collins</A></button>
+          <button><A HREF="https://delicious.com/">Delicious</A></button>
+          <button><A HREF="https://www.dropbox.com/">Dropbox</A></button>
+          <button><A HREF="https://addons.mozilla.org/zh-CN/firefox/">Firefox 附加组件</A></button>
+          <button><A HREF="http://www.sha1-online.com/">Hash Generator</A></button>
+          <button><A HREF="https://ifttt.com/">IFTTT</A></button>
+          <button><A HREF="https://www.instapaper.com/u">Instapaper</A></button>
+          <button><A HREF="https://lastpass.com/">LastPass</A></button>
+          <button><A HREF="https://send.firefox.com/">Send</A></button>
+          <button><A HREF="https://getpocket.com/">Pocket</A></button>
+          <button><A HREF="http://portableapps.com/">PortableApps</A></button>
+          <button><A HREF="https://telegram.org/">Telegram</A></button>
+          <button><A HREF="http://www.ghisler.com/">Total Commander</A></button>
+          <button><A HREF="https://trello.com/">Trello</A></button>
+          <button><A HREF="http://www.merriam-webster.com/">Webster</A></button>
+          <button><A HREF="http://wikipedia.org/">Wikipedia</A></button>
+          <button><A HREF="http://www.wiz.cn/">Wiz</A></button>
+          <button><A HREF="https://www.wolframalpha.com/">WolframAlpha</A></button>
+          <button><A HREF="http://pan.baidu.com/">百度云</A></button>
+          <button><A HREF="http://chuansong.me/">传送门</A></button>
+          <button><A HREF="https://translate.google.cn/">翻</A><A HREF="https://www.bing.com/translator">译</A></button>
+          <button><A HREF="http://www.zdic.net/">汉典</A></button>
+          <button><A HREF="https://jianguoyun.com/">坚果云</A></button>
+          <button><A HREF="https://www.superbed.cn/">聚合图床</A></button>
+          <button><A HREF="https://mijisou.com/">密迹</A></button>
+          <button><A HREF="http://cloud.189.cn/">天翼云</A></button>
+          <hr/>
         </div>
-        <div class="content table-responsive">
-          <h2 class="content-subhead">其他</h2>
-          <table class="pure-table mq-table pure-table-striped">
-            <tbody>
-              <tr class="pure-table">
-                <td><A HREF="http://z.cn/">亚马逊中国</A></td>
-                <td><A HREF="http://www.taobao.com/">淘宝</A></td>
-                <td><A HREF="http://www.jd.com/">京东</A></td>
-                <td><A HREF="http://www.smzdm.com/">什么值得买</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://thewirecutter.com/">Wirecutter</A></td>
-                <td><A HREF="http://www.amazon.com/">Amazon</A></td>
-                <td><A HREF="https://medium.com/">Medium</A></td>
-                <td><A HREF="http://www.douban.com/">豆瓣</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://www.caixin.com/">财新网</A></td>
-                <td><A HREF="http://thenews.im/">The News 2</A></td>
-                <td><A HREF="http://www.cnr.cn/">央广网</A></td>
-                <td><A HREF="http://drudgereport.com/">Drudge Report</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://www.4chan.org/">4chan</A></td>
-                <td><A HREF="https://www.v2ex.com/">V2EX</A></td>
-                <td><A HREF="http://jandan.net/">煎蛋</A></td>
-                <td><A HREF="http://bbs.saraba1st.com/2b/forum.php">S1</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="https://www.ptt.cc/bbs/index.html">PTT</A></td>
-                <td><A HREF="http://www.aisixiang.com/">爱思想</A></td>
-                <td><A HREF="http://www.zhishifenzi.com/">知识分子</A></td>
-                <td><A HREF="https://sspai.com/">少数派</A></td>
-              </tr>
-            </tbody>
-          </table>
+        <div>
+          <h2>其他</h2>
+          <button><A HREF="http://www.4chan.org/">4chan</A></button>
+          <button><A HREF="http://www.amazon.com/">Amazon</A></button>
+          <button><A HREF="http://drudgereport.com/">Drudge Report</A></button>
+          <button><A HREF="https://medium.com/">Medium</A></button>
+          <button><A HREF="https://www.ptt.cc/bbs/index.html">PTT</A></button>
+          <button><A HREF="http://bbs.saraba1st.com/2b/forum.php">S1</A></button>
+          <button><A HREF="http://thenews.im/">The News 2</A></button>
+          <button><A HREF="https://www.v2ex.com/">V2EX</A></button>
+          <button><A HREF="http://thewirecutter.com/">Wirecutter</A></button>
+          <button><A HREF="http://www.aisixiang.com/">爱思想</A></button>
+          <button><A HREF="http://www.caixin.com/">财新网</A></button>
+          <button><A HREF="http://www.douban.com/">豆瓣</A></button>
+          <button><A HREF="http://jandan.net/">煎蛋</A></button>
+          <button><A HREF="http://www.jd.com/">京东</A></button>
+          <button><A HREF="https://sspai.com/">少数派</A></button>
+          <button><A HREF="http://www.smzdm.com/">什么值得买</A></button>
+          <button><A HREF="http://www.taobao.com/">淘宝</A></button>
+          <button><A HREF="http://z.cn/">亚马逊中国</A></button>
+          <button><A HREF="http://www.cnr.cn/">央广网</A></button>
+          <button><A HREF="http://www.zhishifenzi.com/">知识分子</A></button>
+          <hr/>
         </div>
-        <div class="content table-responsive">
-          <h2 class="content-subhead">设计开发</h2>
-          <table class="pure-table mq-table pure-table-striped">
-            <tbody>
-              <tr class="pure-table">
-                <td><A HREF="https://github.com/">GitHub</A></td>
-                <td><A HREF="https://bitbucket.org/">Bitbucket</A></td>
-                <td><A HREF="http://stackoverflow.com/">Stack Overflow</A></td>
-                <td><A HREF="http://segmentfault.com/">Segment Fault</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="https://dribbble.com/">Dribbble</A></td>
-                <td><A HREF="https://www.behance.net/">Behance</A></td>
-                <td><A HREF="https://modao.cc/">墨刀</A></td>
-                <td><A HREF="http://www.w3school.com.cn/">W3School</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://www.materialui.co/colors">MD Colors</A></td>
-                <td><A HREF="http://fontawesome.io/cheatsheet/">Font Awesome</A></td>
-                <td><A HREF="http://zavoloklom.github.io/material-design-iconic-font/cheatsheet.html">MD Iconic Font</A></td>
-                <td><A HREF="https://thenounproject.com/">Noun Project</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://iconmonstr.com/">iconmonstr</A></td>
-                <td><A HREF="http://www.iconfont.cn/">Iconfont</A></td>
-                <td><A HREF="http://purecss.io/">Pure CSS</A></td>
-                <td><A HREF="http://getbootstrap.com/">Bootstrap</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://python.org/">Python</A></td>
-                <td><A HREF="https://www.djangoproject.com/">Django</A></td>
-                <td><A HREF="http://cn.vuejs.org/">Vue.js</A></td>
-                <td><A HREF="http://www.vim.org/scripts/script_search_results.php?order_by=creation_date&direction=descending">Vim Scripts</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://www.lanrentuku.com/">懒人图库</A></td>
-                <td><A HREF="http://colorhunt.co/">Color Hunt</A></td>
-                <td><A HREF="http://www.ui.cn/">UI 中国</A></td>
-                <td><A HREF="http://zcool.com.cn/">站酷</A></td>
-              </tr>
-            </tbody>
-          </table>
+        <div>
+          <h2>设计开发</h2>
+          <button><A HREF="https://www.behance.net/">Behance</A></button>
+          <button><A HREF="https://bitbucket.org/">Bitbucket</A></button>
+          <button><A HREF="http://getbootstrap.com/">Bootstrap</A></button>
+          <button><A HREF="http://colorhunt.co/">Color Hunt</A></button>
+          <button><A HREF="https://www.djangoproject.com/">Django</A></button>
+          <button><A HREF="https://dribbble.com/">Dribbble</A></button>
+          <button><A HREF="http://fontawesome.io/cheatsheet/">Font Awesome</A></button>
+          <button><A HREF="https://github.com/">GitHub</A></button>
+          <button><A HREF="http://iconmonstr.com/">iconmonstr</A></button>
+          <button><A HREF="http://www.iconfont.cn/">Iconfont</A></button>
+          <button><A HREF="http://www.materialui.co/colors">MD Colors</A></button>
+          <button><A HREF="http://zavoloklom.github.io/material-design-iconic-font/cheatsheet.html">MD Iconic Font</A></button>
+          <button><A HREF="https://thenounproject.com/">Noun Project</A></button>
+          <button><A HREF="http://purecss.io/">Pure CSS</A></button>
+          <button><A HREF="http://python.org/">Python</A></button>
+          <button><A HREF="http://segmentfault.com/">Segment Fault</A></button>
+          <button><A HREF="http://stackoverflow.com/">Stack Overflow</A></button>
+          <button><A HREF="http://www.ui.cn/">UI 中国</A></button>
+          <button><A HREF="http://www.vim.org/scripts/script_search_results.php?order_by=creation_date&direction=descending">Vim Scripts</A></button>
+          <button><A HREF="http://cn.vuejs.org/">Vue.js</A></button>
+          <button><A HREF="http://www.w3school.com.cn/">W3School</A></button>
+          <button><A HREF="https://watercss.netlify.com/">Water.css</A></button>
+          <button><A HREF="http://www.lanrentuku.com/">懒人图库</A></button>
+          <button><A HREF="https://modao.cc/">墨刀</A></button>
+          <button><A HREF="http://zcool.com.cn/">站酷</A></button>
+          <hr/>
         </div>
-        <div class="content table-responsive">
-          <h2 class="content-subhead">照片图像</h2>
-          <table class="pure-table mq-table pure-table-striped">
-            <tbody>
-              <tr class="pure-table">
-                <td><A HREF="https://www.instagram.com/">Instagram</A></td>
-                <td><A HREF="http://500px.me/">500px</A></td>
-                <td><A HREF="https://www.pinterest.com/">Pinterest</A></td>
-                <td><A HREF="http://ww.xitek.com/">色影无忌</A></td>
-              </tr>
-              <tr class="pure-table">
-                <td><A HREF="http://imgur.com/">Imgur</A></td>
-                <td><A HREF="https://www.pexels.com/">Pexels</A></td>
-                <td><A HREF="https://pixabay.com/">Pixabay</A></td>
-                <td><A HREF="https://unsplash.com/">Unsplash</A></td>
-              </tr>
-            </tbody>
-          </table>
+        <div>
+          <h2>照片图像</h2>
+          <button><A HREF="http://500px.me/">500px</A></button>
+          <button><A HREF="http://imgur.com/">Imgur</A></button>
+          <button><A HREF="https://www.instagram.com/">Instagram</A></button>
+          <button><A HREF="https://www.pexels.com/">Pexels</A></button>
+          <button><A HREF="https://www.pinterest.com/">Pinterest</A></button>
+          <button><A HREF="https://pixabay.com/">Pixabay</A></button>
+          <button><A HREF="https://unsplash.com/">Unsplash</A></button>
+          <button><A HREF="http://ww.xitek.com/">色影无忌</A></button>
+          <hr/>
         </div>
-        <div class="content table-responsive">
-          <h2 class="content-subhead">游戏</h2>
-          <table class="pure-table mq-table pure-table-striped">
-            <tbody>
-              <tr class="pure-table">
-                <td><A HREF="http://wesnoth.org/">Wesnoth</A></td>
-                <td><A HREF="https://rpg.blue/">Project1</A></td>
-                <td><A HREF="http://www.3dmgame.com/">3DM</A></td>
-                <td><A HREF="http://gamerboom.com/">游戏邦</A></td>
-              </tr>
-            </tbody>
-          </table>
+        <div>
+          <h2>游戏</h2>
+          <button><A HREF="http://www.3dmgame.com/">3DM</A></button>
+          <button><A HREF="https://rpg.blue/">Project1</A></button>
+          <button><A HREF="http://wesnoth.org/">Wesnoth</A></button>
+          <button><A HREF="http://gamerboom.com/">游戏邦</A></button>
+          <hr/>
         </div>
-
-      <div id="footer">
-        <script src="js/ui.js"></script>
-        <script language="javascript" src="http://count23.51yes.com/click.aspx?id=237022121&logo=1" charset="utf-8"></script>
       </div>
-
-      </div>
-
   </body>
 </html>
